@@ -1,0 +1,30 @@
+
+body{
+    height: 100vh;
+    background: #76045D;
+   display: grid;
+   grid-template-areas: "header"
+   "main" "footer";
+   grid-template-rows: 100px 1fr 100px;
+   padding-right: 10vh;
+   
+   }
+   
+   header{
+   grid-area: header;
+   background-color: lightgreen;
+   
+   }
+   
+   main{
+    grid-area: main;
+   background-color: rgb(255, 84, 84);
+   
+   }
+   
+   footer{
+   
+    grid-area: footer;
+   background-color: rgb(81, 103, 170);
+   
+   }
