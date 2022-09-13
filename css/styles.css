@@ -12,15 +12,19 @@ body{
    
    header{
    grid-area: header;
-   background-color: lightgreen;
-   
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
    }
    
-   main{
+main{
     grid-area: main;
-   background-color: rgb(255, 84, 84);
-   
-   }
+    display: grid;
+    grid-template-areas: 
+    "description product social-media";
+    grid-template-columns: 380px 1fr 48px;
+   padding-left: 100px;
+}
    
    footer{
    
