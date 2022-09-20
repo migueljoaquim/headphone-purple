@@ -5,19 +5,31 @@
     justify-content: center;
     align-items: center;
 
+
 }
 
-.product.product__price{
-    height: 50px;
+.product__price{
     width: 200px;
+    height: 50px;
     background-color: #fff;
     font-size: 2rem;
     font-weight: 700;
     display: grid;
     place-items: center;
+    color: #76045D;
+
 
 }
-.product__imagen{
-   
+
+
+.product__image{
+    height: 60%;
+
+}
+
+
+.product__navegation-container{
+    display: flex;
+
 
 }
